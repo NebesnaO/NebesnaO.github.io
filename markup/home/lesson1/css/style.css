@@ -1,49 +1,48 @@
 body {
-    background-color: #FFFFFF;
+    background-color: #DDDDDD;
+    font-size: 16px;
 }
 
 .back_ground {
-    background-color: #DDDDDD;
-    width: 900px;
+    background-color: #F5F5F5;
+    width: 1500px;
     height: 800px;
     border: 1px solid black;
     border-bottom: none;
     margin: 50px auto;
 }
 
-h1 {
-    font-size: 25px;
-}
-
-.list {
+.cvnebesna {
     background-color: #FFFFFF;
     width: 450px;
     height: 660px;
     margin: 5px auto;
     padding: 20px 40px 60px 40px;
+    box-shadow: 0 0 5px 2px rgba(211, 211, 211, 1);
 }
 
-.me {
+.cv_name_pfoto {
     text-align: center;
+    border-bottom: 1px solid gray;
 }
 
-.contact {
+h1 {
+    font-size: 25px;
+}
+
+.cv_goals {
+    border-bottom: 1px solid gray;
+}
+
+.cv_сontact-information {
     margin-bottom: 30px;
+    border-bottom: 1px solid gray;
 }
 
-.contact p:first-child {
-    margin-bottom: 8px;
-}
-
-.contact p:last-child {
-    margin-top: 0px;
-}
-
-.profile p:first-child {
-    margin-bottom: 8px;
-}
-
-.profile p:last-child {
-    margin-top: 0px;
-}
-
+.cv_сontact-information span {
+   display: block;
+   line-height: 30px;
+ }
+ .cv_feedback p {
+   margin-bottom: 0.5em;
+ }

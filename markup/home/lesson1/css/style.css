@@ -11,7 +11,6 @@ body {
     border-bottom: none;
     margin: 50px auto;
 }
-
 .cvnebesna {
     background-color: #FFFFFF;
     width: 450px;
@@ -43,6 +42,7 @@ h1 {
    display: block;
    line-height: 30px;
  }
- .cv_feedback p {
-   margin-bottom: 0.5em;
+ .cv_feedback span {
+    display: block;
+   line-height: 30px;
  }

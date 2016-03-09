@@ -1,0 +1,62 @@
+
+body {
+    background-image: url(../image/background.png);
+}
+
+.wrapper {
+    background-color: #ffffff;
+    margin: 0 auto;
+    width: 1004px;
+    box-shadow: 2px 4px 5px 0 rgba(0, 0, 0, 0.3);
+    border: 1px solid black;
+}
+.header {
+    padding: 5px 16px 6px 5px;
+}
+
+.logo_Asia_Holidays {
+    margin-left: 15px;
+    float: left;
+     display: block;
+}
+.infirmation_box {
+    float: right;
+    
+}
+.Asia_Holidays_contacts {
+     padding-left: 200px;
+    
+    }
+  
+.Asia_Holidays_contacts li {
+    font-family: Tahoma;
+color: #128aa7;
+font-size: 12px;
+font-weight: 400;
+text-align: left;
+ text-decoration: none;
+  list-style: none;
+}
+.countries_logo {
+float: right;
+}
+.country_logo {
+    display: inline-block;
+}
+.country_logo a {
+    font-family: Tahoma;
+color: #128aa7;
+font-size: 10px;
+font-weight: 400;
+text-decoration: underline;
+text-align: left;
+list-style: none;
+    }
+.countries a:hover {
+    text-decoration: none;
+}
+.clearfix:after {
+    content: '';
+    clear: both;
+    display: block;
+}

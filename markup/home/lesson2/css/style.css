@@ -6,7 +6,7 @@ body {
     background-color: #ffffff;
     margin: 0 auto;
     padding: 50px 50px 60px 50px;
-    width: 1060px;
+    width: 960px;
     box-shadow: 2px 4px 5px 0 rgba(0, 0, 0, 0.3);
 }
 
@@ -24,15 +24,26 @@ body {
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
 }
 
-.main_menu li a {
+.main_menu li {
     float: left;
     padding: 0 40px;
+    margin: 0px;
+}
+
+.main_menu li a {
     text-decoration: none;
     color: #ffffff;
     line-height: 40px;
 }
 
-.main_menu a:hover {
+#products {
+    border-left: 1px solid rgb(255, 255, 255);
+    border-right: 1px solid rgb(255, 255, 255);
+    background: -webkit-linear-gradient(90deg, #2e2e2e 0%, #4a4a4a 100%);
+}
+
+.main_menu li:hover {
+    margin: 0px;
     border-left: 1px solid rgb(255, 255, 255);
     border-right: 1px solid rgb(255, 255, 255);
     background: -webkit-linear-gradient(90deg, #2e2e2e 0%, #4a4a4a 100%);
@@ -42,10 +53,10 @@ body {
     background: linear-gradient(0deg, #2e2e2e 0%, #4a4a4a 100%);
 }
 
-#products a {
-    border-left: 1px solid rgb(255, 255, 255);
-    border-right: 1px solid rgb(255, 255, 255);
-    background: -webkit-linear-gradient(90deg, #2e2e2e 0%, #4a4a4a 100%);
+.clearfix:after {
+    content: '';
+    clear: both;
+    display: block;
 }
 
 .pruduct_catalog {
@@ -64,6 +75,7 @@ body {
     padding-left: 20px;
     text-decoration: none;
     color: #656363;
+    display: block;
 }
 
 .pruduct_catalog li:hover {
@@ -80,6 +92,7 @@ body {
 
 .wrapper_visualisation {
     float: right;
+    width: 700px;
 }
 
 .wrapper_product_image {
@@ -102,26 +115,26 @@ body {
     display: block;
 }
 
+
+/*********************************
+FOOTER
+*********************************/
+
 .wrapper_footer_main_menu {
     background: #DDDDDD;
     margin: 40px 0;
-    height: 40px;
     font: 400 15px OpenSans, sans-serif;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
 }
 
-.wrapper_footer_main_menu li:hover {
-    background: #f9f9f9;
-    color: #2c2b2b;
-    padding-left: 10px;
+.wrapper_footer_main_menu li {
+    float: left;
+    padding: 0 40px;
 }
 
 .wrapper_footer_main_menu li a {
-    float: left;
-    padding: 0 40px;
     text-decoration: none;
     color: #2c2b2b;
-    ;
     line-height: 40px;
 }
 
@@ -129,10 +142,10 @@ body {
     text-decoration: underline;
 }
 
-.wrapper_footer_main_menu a:hover {
-    text-decoration: underline;
+.wrapper_footer_main_menu li:hover {
+   text-decoration: underline;
 }
-
+    
 .copy p {
     padding-right: 20px;
     line-height: 40px;

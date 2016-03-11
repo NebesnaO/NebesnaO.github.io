@@ -26,20 +26,15 @@ body {
 
 .main_menu li {
     float: left;
-    padding: 0 40px;
-    margin: 0px;
+    margin: 0 1px;
 }
 
 .main_menu li a {
     text-decoration: none;
     color: #ffffff;
     line-height: 40px;
-}
-
-#products {
-    border-left: 1px solid rgb(255, 255, 255);
-    border-right: 1px solid rgb(255, 255, 255);
-    background: -webkit-linear-gradient(90deg, #2e2e2e 0%, #4a4a4a 100%);
+    padding: 0 40px;
+    display: block;
 }
 
 .main_menu li:hover {
@@ -129,23 +124,24 @@ FOOTER
 
 .wrapper_footer_main_menu li {
     float: left;
-    padding: 0 40px;
 }
 
 .wrapper_footer_main_menu li a {
     text-decoration: none;
     color: #2c2b2b;
     line-height: 40px;
+    padding: 0 40px;
+    display: block;
 }
 
 #choosen a {
     text-decoration: underline;
 }
 
-.wrapper_footer_main_menu li:hover {
-   text-decoration: underline;
+.wrapper_footer_main_menu li a:hover {
+    text-decoration: underline;
 }
-    
+
 .copy p {
     padding-right: 20px;
     line-height: 40px;

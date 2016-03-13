@@ -1,62 +1,218 @@
+* {
+    background-size: 100% 100%;
+}
 
 body {
     background-image: url(../image/background.png);
+    margin: 0 auto;
 }
 
 .wrapper {
+    margin: 0 auto;
     background-color: #ffffff;
     margin: 0 auto;
-    width: 1004px;
+    width: 1018px;
+    height: 995px;
     box-shadow: 2px 4px 5px 0 rgba(0, 0, 0, 0.3);
     border: 1px solid black;
 }
+
 .header {
-    padding: 5px 16px 6px 5px;
+    height: 177px;
 }
 
 .logo_Asia_Holidays {
-    margin-left: 15px;
+    margin-left: 25px;
+    margin-top: 15px;
     float: left;
-     display: block;
 }
+
 .infirmation_box {
     float: right;
-    
+    width: 340;
+    margin-right: 30px;
+    height: 100%;
 }
+
 .Asia_Holidays_contacts {
-     padding-left: 200px;
-    
-    }
-  
+    float: right;
+    height: 70px;
+}
+
 .Asia_Holidays_contacts li {
+    list-style: none;
+}
+
+.Asia_Holidays_contacts li a {
     font-family: Tahoma;
-color: #128aa7;
-font-size: 12px;
-font-weight: 400;
-text-align: left;
- text-decoration: none;
-  list-style: none;
-}
-.countries_logo {
-float: right;
-}
-.country_logo {
-    display: inline-block;
-}
-.country_logo a {
-    font-family: Tahoma;
-color: #128aa7;
-font-size: 10px;
-font-weight: 400;
-text-decoration: underline;
-text-align: left;
-list-style: none;
-    }
-.countries a:hover {
+    color: #128aa7;
+    font-size: 12px;
+    font-weight: 400;
     text-decoration: none;
 }
+
+#title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.country {
+    padding-top: 20px;
+    margin-bottom: 2px;
+    float: right;
+}
+
+.country li {
+    list-style: none;
+    float: right;
+}
+
+.country a {
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 400;
+    float: right;
+    width: 56px;
+    color: #128aa7;
+    text-align: center;
+}
+
+.country a:hover {
+    text-decoration: none;
+}
+
 .clearfix:after {
     content: '';
     clear: both;
     display: block;
+}
+
+.central_foto {
+    background-image: url(../image/photo_Asia.jpg);
+    border-top: 1px solid #128aa7;
+    border-bottom: 1px solid #128aa7;
+    height: 236px;
+}
+
+
+/*********************************
+MENU
+*********************************/
+
+.menu {
+    background: -webkit-linear-gradient(90deg, #444343 0%, #5e5e5e 100%);
+    margin: 0;
+    width: auto;
+    font: 15px sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.menu:after {
+    content: '';
+    clear: both;
+    width: 100%;
+    height: 0;
+}
+
+.menu > li {
+    float: left;
+    margin: 0;
+    list-style: none;
+    padding: 0px;
+}
+
+.menu li {
+    list-style: none;
+    position: relative;
+}
+
+.main_menu li a {
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 25px;
+    padding: 0 30px;
+    display: block;
+}
+
+.simbol {
+    font-size: 7px;
+    vertical-align: middle;
+    padding-left: 2px;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding-left: 0;
+    background: -webkit-linear-gradient(90deg, #444343 0%, #5e5e5e 100%);
+    font: 15px sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.main_menu li:hover .submenu {
+    display: block;
+}
+
+/*********************************
+content
+*********************************/
+
+.content {
+    height: 553px;
+    width: 100%;
+    color: #424c43;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+}
+
+.column_name {
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.content p {
+    margin: 0;
+}
+
+.left_block {
+    float: left;
+    display: block;
+    width: 18%;
+    background-color: #ddd;
+    height: 100%;
+    padding: 0 15px;
+    border-left: 1px solid #c7cacf;
+    border-right: 1px solid #c7cacf;
+}
+
+.news {
+    float: left;
+    display: block;
+    width: 64%;
+}
+
+.right_box {
+    float: right;
+    display: block;
+    width: 18%;
+    background-color: #ddd;
+    height: 100%;
+    padding: 0 15px;
+    border-left: 1px solid #c7cacf;
+    border-right: 1px solid #c7cacf;
+}
+
+.footer {
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
 }

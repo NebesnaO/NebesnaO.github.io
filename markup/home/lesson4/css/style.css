@@ -1,10 +1,7 @@
-* {
-    background-size: 100% 100%;
-}
-
 body {
-    background-image: url(../image/background.png);
-    margin: 0 auto;
+    background: url(../image/background.png) repeat-x top center, #0C75A0;
+    font-family: Tahoma, Arial, sans-serif;
+    font-weight: 400;
 }
 
 .wrapper {
@@ -18,12 +15,12 @@ body {
 }
 
 .header {
-    height: 177px;
+    height: 175px;
 }
 
 .logo_Asia_Holidays {
     margin-left: 25px;
-    margin-top: 15px;
+    margin-top: 10px;
     float: left;
 }
 
@@ -37,6 +34,7 @@ body {
 .Asia_Holidays_contacts {
     float: right;
     height: 70px;
+    margin-top: 10px;
 }
 
 .Asia_Holidays_contacts li {
@@ -57,24 +55,25 @@ body {
 }
 
 .country {
-    padding-top: 20px;
+    padding-top: 30px;
     margin-bottom: 2px;
-    float: right;
+    float: left;
 }
 
 .country li {
     list-style: none;
-    float: right;
+    float: left;
+    display: block;
 }
 
 .country a {
-    font-size: 10px;
-    line-height: 12px;
-    font-weight: 400;
-    float: right;
-    width: 56px;
-    color: #128aa7;
+    display: block;
     text-align: center;
+    width: 56px;
+    line-height: 12px;
+    font-size: 10px;
+    font-weight: 400;
+    color: #128aa7;
 }
 
 .country a:hover {
@@ -87,11 +86,20 @@ body {
     display: block;
 }
 
+.countries_logo {
+    clear: both;
+    display: block;
+}
+
 .central_foto {
-    background-image: url(../image/photo_Asia.jpg);
+    height: 243px;
     border-top: 1px solid #128aa7;
     border-bottom: 1px solid #128aa7;
-    height: 236px;
+}
+
+.asia_foto {
+    height: 243px;
+    width: 1018px;
 }
 
 
@@ -105,6 +113,7 @@ MENU
     width: auto;
     font: 15px sans-serif;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    padding: 0 45px;
 }
 
 .menu:after {
@@ -124,20 +133,26 @@ MENU
 .menu li {
     list-style: none;
     position: relative;
+    padding: 0 30px;
 }
 
 .main_menu li a {
     text-decoration: none;
     color: #ffffff;
     line-height: 25px;
-    padding: 0 30px;
     display: block;
 }
 
-.simbol {
-    font-size: 7px;
-    vertical-align: middle;
-    padding-left: 2px;
+.stelka:after {
+    content: "";
+    display: block;
+    background: url(../image/strelka.png) no-repeat;
+    right: 20px;
+    height: 6px;
+    width: 5px;
+    position: absolute;
+    top: 50%;
+    margin-top: -2px;
 }
 
 .submenu {
@@ -145,7 +160,6 @@ MENU
     position: absolute;
     top: 100%;
     left: 0;
-    padding-left: 0;
     background: -webkit-linear-gradient(90deg, #444343 0%, #5e5e5e 100%);
     font: 15px sans-serif;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
@@ -155,12 +169,13 @@ MENU
     display: block;
 }
 
+
 /*********************************
 content
 *********************************/
 
 .content {
-    height: 553px;
+    height: 550px;
     width: 100%;
     color: #424c43;
     font-size: 14px;
@@ -208,11 +223,10 @@ content
 }
 
 .footer {
-    height: 20px;
     line-height: 20px;
     text-align: center;
     margin: 0 auto;
+    padding: 5px;
     font-size: 12px;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.8);
 }

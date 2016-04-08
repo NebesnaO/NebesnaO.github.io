@@ -1,292 +1,298 @@
-.html .body {
-    background-color: #EAEAEA;
-    width: 100%;
-    height: 100%;
-    font-family: Tahoma, Arial;
-}
-
-.wrapper {
-    width: 100%;
-    height: 100%;
-}
-
-@font-face {
-    font-family: 'Helvetica Neue';
-    src: url("Cadastre/fonts/helveticaneue-thin-webfont.eot");
-    src: url('fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/helveticaneue-thin-webfont.woff2') format('woff2'), url('fonts/helveticaneue-thin-webfont.woff') format('woff'), url('fonts/helveticaneue-thin-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-.header {
-    background: #08599d;
-    height: 36px;
-}
-
-.menu {
-    float: right;
-}
-
-.header_menu1 {
-    position: relative;
-    float: left;
-    padding-right: 10px;
-    border-right: 1px solid #449ad3;
-}
-
-.header_menu1 li {
-    float: left;
-    display: block;
-    list-style: none;
-    padding: 0px;
-}
-
-.header_menu1 li a {
-    text-decoration: none;
-    padding: 0 10px;
-    display: block;
-    line-height: 36px;
-    color: #60b5ed;
-    font-size: 14px;
-    font-family: "Helvetica Neue", Arial, Tahoma;
-}
-
-.header_menu1 a:hover {
-    display: block;
-    background: #4DAAD8;
-    color: #ffffff;
-    font-size: 14px;
-    font-family: "Helvetica Neue", Arial, Tahoma;
-}
-
-.header_aditional_menu {
-    position: relative;
-    float: left;
-    margin: 0 20px 0 0;
-}
-
-.aditional_menu_flag {
-    position: relative;
-    float: left;
-    display: inline-block;
-    padding: 0 5px;
-    top: 6px;
-    left: 2px;
-}
-
-.aditional_menu_ofertas {
-    position: relative;
-    float: left;
-    display: inline-block;
-    padding: 0 10px 0 5px;
-}
-
-.aditional_menu_ofertas a {
-    color: #ffffff;
-    font-size: 14px;
-    text-decoration: none;
-    line-height: 36px;
-    font-family: "Helvetica Neue", Arial, Tahoma;
-}
-
-.aditional_menu_ofertas a:hover {
-    text-decoration: underline;
-    font-family: "Helvetica Neue", Arial, Tahoma;
-}
-
-.aditional_menu_login {
-    position: relative;
-    float: left;
-    border-right: 1px solid #449ad3;
-    border-left: 1px solid #449ad3;
-    padding: 0 8px;
-    background: rgba(68, 157, 210, 1);
-    background: -moz-linear-gradient(top, rgba(68, 157, 210, 1) 0%, rgba(58, 141, 203, 1) 34%, rgba(51, 128, 197, 1) 52%, rgba(46, 121, 194, 1) 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(68, 157, 210, 1)), color-stop(34%, rgba(58, 141, 203, 1)), color-stop(52%, rgba(51, 128, 197, 1)), color-stop(100%, rgba(46, 121, 194, 1)));
-    background: -webkit-linear-gradient(top, rgba(68, 157, 210, 1) 0%, rgba(58, 141, 203, 1) 34%, rgba(51, 128, 197, 1) 52%, rgba(46, 121, 194, 1) 100%);
-    background: -o-linear-gradient(top, rgba(68, 157, 210, 1) 0%, rgba(58, 141, 203, 1) 34%, rgba(51, 128, 197, 1) 52%, rgba(46, 121, 194, 1) 100%);
-    background: -ms-linear-gradient(top, rgba(68, 157, 210, 1) 0%, rgba(58, 141, 203, 1) 34%, rgba(51, 128, 197, 1) 52%, rgba(46, 121, 194, 1) 100%);
-    background: linear-gradient(to bottom, rgba(68, 157, 210, 1) 0%, rgba(58, 141, 203, 1) 34%, rgba(51, 128, 197, 1) 52%, rgba(46, 121, 194, 1) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#449dd2', endColorstr='#2e79c2', GradientType=0);
-}
-
-.aditional_menu_login a,
-.aditional_menu_login span {
-    color: #ffffff;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 36px;
-    text-align: left;
-    font-family: "Helvetica Neue", Arial, Tahoma;
-}
-
-.aditional_menu_login a:hover {
-    text-decoration: none;
-    font-family: "Helvetica Neue", Arial, Tahoma;
-}
-
-.clearfix:after {
-    content: "";
-    display: block;
-    clear: both;
-}
-
-.content {
-    position: relative;
-    background: url(../image/Background.png);
-    background-size: cover;
-    top: 0;
-    left: 0;
-    height: 1020px;
-}
-
-.forma {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.forma_header {
-    height: 62px;
-    background: RGBA(0, 0, 0, 0.5);
-    margin-bottom: 2px;
-}
-
-.forma_header h1 {
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 62px;
-    text-align: center;
-    color: white;
-}
-
-.forma_information {
-    padding: 25px 140px;
-    background: RGBA(0, 0, 0, 0.5);
-}
-
-.faceboock {
-    display: inline-block;
-    background: -webkit-linear-gradient(top, #28539B, #193F7B);
-    background: -moz-linear-gradient(top, #28539B, #193F7B);
-    background: -o-linear-gradient(top, #28539B, #193F7B);
-    background: -ms-linear-gradient(top, #28539B, #193F7B);
-    background: linear-gradient(to bottom, #28539B, #193F7B);
-    border-radius: 5px;
-    position: relative;
-    color: #fff;
-    text-decoration: none;
-    width: 276px;
-}
-
-.faceboock p {
-    display: inline-block;
-    vertical-align: middle;
-    padding: 0 30px;
-   }
-   .text_bold {
-       font-weight: bold;
-   }
-
-.faceboock:before {
-    content: " F ";
-    display: inline-block;
-    vertical-align: middle;
-    font-size: 20px;
-    font-weight: bold;
-    border-right: 2px groove #ccc;
-    padding: 5px 10px;
-    color: #ffffff;
-}
-
-.faceboock:after {
-    content: "";
-    display: block;
-    background: url(../image/strelka.png) no-repeat;
-    width: 10px;
-    height: 14px;
-    position: absolute;
-    right: 30px;
-    top: 7px;
-}
-
-.ou {
-    position: relative;
-    color: #999999;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 16px;
-    text-align: center;
-    padding: 20px 0;
-}
-
-.ou:before {
-    position: absolute;
-    content: "";
-    width: 123px;
-    border-top: 1px solid #666666;
-    border-bottom: 1px solid #000;
-    left: 1px;
-    bottom: 27px;
-}
-
-.ou:after {
-    position: absolute;
-    content: "";
-    width: 123px;
-    border-top: 1px solid #666666;
-    border-bottom: 1px solid #000;
-    right: 1px;
-    bottom: 27px;
-}
-
-.input input {
-    display: block;
-    background: #0f0f0f;
-    font-size: 14px;
-    font-weight: 400;
-    font-family: "Helvetica Neue", Arial, Tahoma;
-    color: #cccccc;
-    line-height: 33px;
-    border: none;
-    border-bottom: #474746;
-    box-shadow: 1px 1px 7px 0px rgba(75, 75, 75, 1);
-    margin: 0 0 15px 0;
-    padding: 0 91px 0 15px;
-}
-
-.input input:focus {
-    background: #1b5287 no-repeat;
-    color: #fffbfb;
-}
-
-.checkbox {
-    color: #cccccc;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-}
-
-.botton input {
-    position: relative;
-    display: block;
-    background: rgba(79, 173, 217, 1);
-    border-radius: 5px;
-    color: #cccccc;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-    border: none;
-    margin: 20px auto;
-    width: 149px;
-}
-
-.text {
-    width: 309px;
-    color: #cccccc;
-    font-size: 11px;
-    font-weight: 400;
-    line-height: 16px;
-    text-align: center;
-}
+ html,
+ body {
+  font-family: Tahoma, Arial;
+  background: url(../image/Background1.jpg) no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+ }
+ 
+ .wrapper {
+  width: 100%;
+  height: 100%;
+ }
+ 
+ @font-face {
+  font-family: 'Helvetica Neue';
+  src: url("Cadastre/fonts/helveticaneue-thin-webfont.eot");
+  src: url('fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/helveticaneue-thin-webfont.woff2') format('woff2'), url('fonts/helveticaneue-thin-webfont.woff') format('woff'), url('fonts/helveticaneue-thin-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+ }
+ 
+ .header {
+  background: url(../image/Background_copy.jpg) no-repeat center center fixed;
+  height: 36px;
+  background-size: cover;
+ }
+ 
+ .menu {
+  float: right;
+ }
+ 
+ .header_menu1 {
+  position: relative;
+  float: left;
+  padding-right: 10px;
+  border-right: 1px solid #449ad3;
+ }
+ 
+ .header_menu1 li {
+  float: left;
+  display: block;
+  list-style: none;
+  padding: 0px;
+ }
+ 
+ .header_menu1 li a {
+  text-decoration: none;
+  padding: 0 10px;
+  display: block;
+  line-height: 36px;
+  color: #60b5ed;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Arial, Tahoma;
+ }
+ 
+ .header_menu1 a:hover {
+  display: block;
+  background: #4DAAD8;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Arial, Tahoma;
+ }
+ 
+ .header_aditional_menu {
+  position: relative;
+  float: left;
+  margin: 0 20px 0 0;
+ }
+ 
+ .aditional_menu_ofertas {
+  position: relative;
+  float: left;
+  display: inline-block;
+  padding: 0 10px 0 5px;
+ }
+ 
+ .aditional_menu_ofertas a {
+  color: #ffffff;
+  font-size: 14px;
+  text-decoration: none;
+  line-height: 36px;
+  font-family: "Helvetica Neue", Arial, Tahoma;
+  padding: 5px 10px 5px 40px;
+ }
+ 
+ .aditional_menu_ofertas a:hover {
+  text-decoration: underline;
+  font-family: "Helvetica Neue", Arial, Tahoma;
+ }
+ 
+ .aditional_menu_ofertas:after {
+  content: ' ';
+  display: block;
+  background: url('../image/flag.png') no-repeat;
+  width: 23px;
+  height: 28px;
+  position: absolute;
+  left: 15px;
+  top: 7px;
+ }
+ 
+ .aditional_menu_login {
+  position: relative;
+  float: left;
+  border-right: 1px solid #449ad3;
+  border-left: 1px solid #449ad3;
+  padding: 0 8px;
+  background: rgba(68, 157, 210, 1);
+  background: -moz-linear-gradient(top, rgba(68, 157, 210, 1) 0%, rgba(58, 141, 203, 1) 34%, rgba(51, 128, 197, 1) 52%, rgba(46, 121, 194, 1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(68, 157, 210, 1)), color-stop(34%, rgba(58, 141, 203, 1)), color-stop(52%, rgba(51, 128, 197, 1)), color-stop(100%, rgba(46, 121, 194, 1)));
+  background: -webkit-linear-gradient(top, rgba(68, 157, 210, 1) 0%, rgba(58, 141, 203, 1) 34%, rgba(51, 128, 197, 1) 52%, rgba(46, 121, 194, 1) 100%);
+  background: -o-linear-gradient(top, rgba(68, 157, 210, 1) 0%, rgba(58, 141, 203, 1) 34%, rgba(51, 128, 197, 1) 52%, rgba(46, 121, 194, 1) 100%);
+  background: -ms-linear-gradient(top, rgba(68, 157, 210, 1) 0%, rgba(58, 141, 203, 1) 34%, rgba(51, 128, 197, 1) 52%, rgba(46, 121, 194, 1) 100%);
+  background: linear-gradient(to bottom, rgba(68, 157, 210, 1) 0%, rgba(58, 141, 203, 1) 34%, rgba(51, 128, 197, 1) 52%, rgba(46, 121, 194, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#449dd2', endColorstr='#2e79c2', GradientType=0);
+ }
+ 
+ .aditional_menu_login a,
+ .aditional_menu_login span {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  font-family: "Helvetica Neue", Arial, Tahoma;
+ }
+ 
+ .aditional_menu_login a:hover {
+  text-decoration: none;
+  font-family: "Helvetica Neue", Arial, Tahoma;
+ }
+ 
+ .clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+ }
+ 
+ .content {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100%;
+ }
+ 
+ .forma {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ }
+ 
+ .forma_header {
+  height: 62px;
+  background: RGBA(0, 0, 0, 0.5);
+  margin-bottom: 2px;
+  vertical-align: baseline;
+ }
+ 
+ .forma_header h1 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 62px;
+  text-align: center;
+  color: white;
+ }
+ 
+ .forma_information {
+  padding: 25px 140px;
+  background: RGBA(0, 0, 0, 0.5);
+ }
+ 
+ .faceboock {
+  display: inline-block;
+  background: -webkit-linear-gradient(top, #28539B, #193F7B);
+  background: -moz-linear-gradient(top, #28539B, #193F7B);
+  background: -o-linear-gradient(top, #28539B, #193F7B);
+  background: -ms-linear-gradient(top, #28539B, #193F7B);
+  background: linear-gradient(to bottom, #28539B, #193F7B);
+  border-radius: 5px;
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+  width: 309px;
+ }
+ 
+ .faceboock p {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 30px;
+ }
+ 
+ .text_bold {
+  font-weight: bold;
+ }
+ 
+ .faceboock:before {
+  content: " F ";
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 20px;
+  font-weight: bold;
+  border-right: 2px groove #ccc;
+  padding: 5px 10px;
+  color: #ffffff;
+ }
+ 
+ .faceboock:after {
+  content: "";
+  display: block;
+  background: url(../image/strelka.png) no-repeat;
+  width: 10px;
+  height: 14px;
+  position: absolute;
+  right: 30px;
+  top: 7px;
+ }
+ 
+ .ou {
+  position: relative;
+  color: #999999;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+  padding: 20px 0;
+ }
+ 
+ .ou:before {
+  position: absolute;
+  content: "";
+  width: 123px;
+  border-top: 1px solid #666666;
+  border-bottom: 1px solid #000;
+  left: 1px;
+  bottom: 27px;
+ }
+ 
+ .ou:after {
+  position: absolute;
+  content: "";
+  width: 123px;
+  border-top: 1px solid #666666;
+  border-bottom: 1px solid #000;
+  right: 1px;
+  bottom: 27px;
+ }
+ 
+ .input input {
+  display: block;
+  background: #0f0f0f;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Helvetica Neue", Arial, Tahoma;
+  color: #cccccc;
+  line-height: 33px;
+  border: none;
+  border-bottom: #474746;
+  box-shadow: 1px 1px 7px 0px rgba(75, 75, 75, 1);
+  margin: 0 0 15px 0;
+  padding: 0 121px 0 15px;
+ }
+ 
+ .input input:focus {
+  background: #1b5287 no-repeat;
+  color: #fffbfb;
+ }
+ 
+ .checkbox {
+  color: #cccccc;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+ }
+ 
+ .botton input {
+  position: relative;
+  display: block;
+  background: rgba(79, 173, 217, 1);
+  border-radius: 5px;
+  color: #cccccc;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 36px;
+  border: none;
+  margin: 20px auto;
+  width: 149px;
+ }
+ 
+ .text {
+  width: 309px;
+  color: #cccccc;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+ }

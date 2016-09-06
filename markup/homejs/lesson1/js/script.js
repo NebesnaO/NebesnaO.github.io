@@ -13,3 +13,5 @@ return result;
 var result = pow(base,exponent);
 console.log('Результат = ',  result);
 
+
+ 
